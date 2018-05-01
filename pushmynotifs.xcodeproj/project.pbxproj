@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01B22F94A3F714DFFD7E5D89 /* Pods_pushmynotifs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EB2260274B696833825A54 /* Pods_pushmynotifs.framework */; };
+		B62332D93FF7C290AD80035F /* Pods_pushmynotifsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF80DBAEF103B9B9D34E4009 /* Pods_pushmynotifsUITests.framework */; };
+		F017D946C181D7652C6B1169 /* Pods_pushmynotifsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A73424E6AA5D7AA8A0D9A0 /* Pods_pushmynotifsTests.framework */; };
 		F882ADF220993146007D0562 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F882ADF120993146007D0562 /* AppDelegate.swift */; };
 		F882ADF420993146007D0562 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F882ADF320993146007D0562 /* ViewController.swift */; };
 		F882ADF720993146007D0562 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F882ADF520993146007D0562 /* Main.storyboard */; };
@@ -14,6 +17,7 @@
 		F882ADFC2099314B007D0562 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F882ADFA2099314B007D0562 /* LaunchScreen.storyboard */; };
 		F882AE072099314C007D0562 /* pushmynotifsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F882AE062099314C007D0562 /* pushmynotifsTests.swift */; };
 		F882AE122099314C007D0562 /* pushmynotifsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F882AE112099314C007D0562 /* pushmynotifsUITests.swift */; };
+		F882AE2020993287007D0562 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F882AE1F20993287007D0562 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12A73424E6AA5D7AA8A0D9A0 /* Pods_pushmynotifsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pushmynotifsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E28553A0E88073DAC5FF8AD /* Pods-pushmynotifsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pushmynotifsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pushmynotifsTests/Pods-pushmynotifsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		31C8B084951E0096C9A35BC0 /* Pods-pushmynotifsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pushmynotifsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-pushmynotifsUITests/Pods-pushmynotifsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		884BC254D24B4B9F02AE6887 /* Pods-pushmynotifsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pushmynotifsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-pushmynotifsTests/Pods-pushmynotifsTests.release.xcconfig"; sourceTree = "<group>"; };
+		968DC78A7DED73A4EC86FE41 /* Pods-pushmynotifs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pushmynotifs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pushmynotifs/Pods-pushmynotifs.debug.xcconfig"; sourceTree = "<group>"; };
+		BD7BBCF8C9EED2B7F04C2B20 /* Pods-pushmynotifs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pushmynotifs.release.xcconfig"; path = "Pods/Target Support Files/Pods-pushmynotifs/Pods-pushmynotifs.release.xcconfig"; sourceTree = "<group>"; };
+		CC3FF66C1E962AA7B4DD2B4E /* Pods-pushmynotifsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pushmynotifsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pushmynotifsUITests/Pods-pushmynotifsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF80DBAEF103B9B9D34E4009 /* Pods_pushmynotifsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pushmynotifsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4EB2260274B696833825A54 /* Pods_pushmynotifs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pushmynotifs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F882ADEE20993146007D0562 /* pushmynotifs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pushmynotifs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F882ADF120993146007D0562 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F882ADF320993146007D0562 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,7 @@
 		F882AE0D2099314C007D0562 /* pushmynotifsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pushmynotifsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F882AE112099314C007D0562 /* pushmynotifsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pushmynotifsUITests.swift; sourceTree = "<group>"; };
 		F882AE132099314C007D0562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F882AE1F20993287007D0562 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01B22F94A3F714DFFD7E5D89 /* Pods_pushmynotifs.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F017D946C181D7652C6B1169 /* Pods_pushmynotifsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B62332D93FF7C290AD80035F /* Pods_pushmynotifsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E29CBE3A05C1F855E23900C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				968DC78A7DED73A4EC86FE41 /* Pods-pushmynotifs.debug.xcconfig */,
+				BD7BBCF8C9EED2B7F04C2B20 /* Pods-pushmynotifs.release.xcconfig */,
+				2E28553A0E88073DAC5FF8AD /* Pods-pushmynotifsTests.debug.xcconfig */,
+				884BC254D24B4B9F02AE6887 /* Pods-pushmynotifsTests.release.xcconfig */,
+				CC3FF66C1E962AA7B4DD2B4E /* Pods-pushmynotifsUITests.debug.xcconfig */,
+				31C8B084951E0096C9A35BC0 /* Pods-pushmynotifsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5500890FA5F4E12C543B2AB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4EB2260274B696833825A54 /* Pods_pushmynotifs.framework */,
+				12A73424E6AA5D7AA8A0D9A0 /* Pods_pushmynotifsTests.framework */,
+				CF80DBAEF103B9B9D34E4009 /* Pods_pushmynotifsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F882ADE520993145007D0562 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				F882AE052099314C007D0562 /* pushmynotifsTests */,
 				F882AE102099314C007D0562 /* pushmynotifsUITests */,
 				F882ADEF20993146007D0562 /* Products */,
+				1E29CBE3A05C1F855E23900C /* Pods */,
+				5500890FA5F4E12C543B2AB5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +145,7 @@
 				F882ADF82099314B007D0562 /* Assets.xcassets */,
 				F882ADFA2099314B007D0562 /* LaunchScreen.storyboard */,
 				F882ADFD2099314B007D0562 /* Info.plist */,
+				F882AE1F20993287007D0562 /* GoogleService-Info.plist */,
 			);
 			path = pushmynotifs;
 			sourceTree = "<group>";
@@ -132,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F882AE162099314C007D0562 /* Build configuration list for PBXNativeTarget "pushmynotifs" */;
 			buildPhases = (
+				ACED39B232C975E40CA56CD2 /* [CP] Check Pods Manifest.lock */,
 				F882ADEA20993146007D0562 /* Sources */,
 				F882ADEB20993146007D0562 /* Frameworks */,
 				F882ADEC20993146007D0562 /* Resources */,
+				12DA41C2EE3210DBB090EA34 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F882AE192099314C007D0562 /* Build configuration list for PBXNativeTarget "pushmynotifsTests" */;
 			buildPhases = (
+				4BD3D7C55D600D1B565CF83B /* [CP] Check Pods Manifest.lock */,
 				F882ADFE2099314C007D0562 /* Sources */,
 				F882ADFF2099314C007D0562 /* Frameworks */,
 				F882AE002099314C007D0562 /* Resources */,
@@ -167,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F882AE1C2099314C007D0562 /* Build configuration list for PBXNativeTarget "pushmynotifsUITests" */;
 			buildPhases = (
+				5711344CFF318D1181C519A2 /* [CP] Check Pods Manifest.lock */,
 				F882AE092099314C007D0562 /* Sources */,
 				F882AE0A2099314C007D0562 /* Frameworks */,
 				F882AE0B2099314C007D0562 /* Resources */,
@@ -230,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F882ADFC2099314B007D0562 /* LaunchScreen.storyboard in Resources */,
+				F882AE2020993287007D0562 /* GoogleService-Info.plist in Resources */,
 				F882ADF92099314B007D0562 /* Assets.xcassets in Resources */,
 				F882ADF720993146007D0562 /* Main.storyboard in Resources */,
 			);
@@ -250,6 +298,83 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12DA41C2EE3210DBB090EA34 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-pushmynotifs/Pods-pushmynotifs-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pushmynotifs/Pods-pushmynotifs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BD3D7C55D600D1B565CF83B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pushmynotifsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5711344CFF318D1181C519A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pushmynotifsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACED39B232C975E40CA56CD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pushmynotifs-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F882ADEA20993146007D0562 /* Sources */ = {
@@ -428,15 +553,13 @@
 		};
 		F882AE172099314C007D0562 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 968DC78A7DED73A4EC86FE41 /* Pods-pushmynotifs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 67H43KT2PM;
 				INFOPLIST_FILE = pushmynotifs/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrewmiller167.pushmynotifs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -446,15 +569,13 @@
 		};
 		F882AE182099314C007D0562 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD7BBCF8C9EED2B7F04C2B20 /* Pods-pushmynotifs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 67H43KT2PM;
 				INFOPLIST_FILE = pushmynotifs/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrewmiller167.pushmynotifs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -464,17 +585,14 @@
 		};
 		F882AE1A2099314C007D0562 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E28553A0E88073DAC5FF8AD /* Pods-pushmynotifsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 67H43KT2PM;
 				INFOPLIST_FILE = pushmynotifsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrewmiller167.pushmynotifsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -485,17 +603,14 @@
 		};
 		F882AE1B2099314C007D0562 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 884BC254D24B4B9F02AE6887 /* Pods-pushmynotifsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 67H43KT2PM;
 				INFOPLIST_FILE = pushmynotifsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrewmiller167.pushmynotifsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -506,16 +621,13 @@
 		};
 		F882AE1D2099314C007D0562 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC3FF66C1E962AA7B4DD2B4E /* Pods-pushmynotifsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 67H43KT2PM;
 				INFOPLIST_FILE = pushmynotifsUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrewmiller167.pushmynotifsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -526,16 +638,13 @@
 		};
 		F882AE1E2099314C007D0562 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31C8B084951E0096C9A35BC0 /* Pods-pushmynotifsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 67H43KT2PM;
 				INFOPLIST_FILE = pushmynotifsUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrewmiller167.pushmynotifsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
