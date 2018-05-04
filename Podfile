@@ -7,6 +7,7 @@ target 'pushmynotifs' do
 
   # Pods for pushmynotifs
   pod 'Firebase'
+  pod 'Firebase/Messaging'
   
   target 'pushmynotifsTests' do
     inherit! :search_paths
