@@ -20,12 +20,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        
-        if #available(iOS 8.0, *) {
-            let settings: UNNotificationSettings = UNNotificationSettings(types: [.alert, .badge, .sound], categories: nil)
-        }
+        application.registerForRemoteNotifications()
         
         FirebaseApp.configure()
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(self.tokenRefreshNotification(notification:)), name: Notification.Name.rawValue, object: nil)
+        
         return true
     }
 
@@ -53,9 +53,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
     
-    func tokenRefreshNotification(notification: NSNotification) {
-        let refreshedToken = InstanceID().token()!
-        print("InstanceID token: \(refreshedToken)")
+    @objc func tokenRefreshNotification(notification: NSNotification) {
+        let refreshedToken = InstanceID.instanceID().token()
+        print("InstanceID token: \(String(describing: refreshedToken))")
     }
     
     func connectToFCM() {
